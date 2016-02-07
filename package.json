@@ -1,7 +1,7 @@
 {
   "name": "chaos-editor",
   "version": "0.0.1",
-  "author": "Khrall (Raymi T. Eldby)",
+  "author": "Raymi T. Eldby <raymitoro@gmail.com> (http://elddev.com)",
   "description": "A javascript editor",
   "main": "app/index.js",
   "repository": {
