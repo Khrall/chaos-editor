@@ -3,7 +3,7 @@
   "version": "0.0.2",
   "author": "Khrall",
   "description": "A javascript editor",
-  "main": "lib/bundle.js",
+  "main": "chaos-editor.min.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/khrall/"

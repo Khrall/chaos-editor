@@ -2,9 +2,5 @@ build/
 components/
 src/
 tests/
-.babelrc
-.gitignore
-.npmignore
-.travis.yml
-bower.json
+*.
 webpack.config.js

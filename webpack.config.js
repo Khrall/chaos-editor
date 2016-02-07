@@ -1,10 +1,10 @@
-var path = require('path');
+var webpack = require("webpack");
 
 module.exports = {
     entry: './src/index.js',
     output: {
-        path: path.resolve(__dirname, 'lib'),
-        filename: 'bundle.js'
+        path: __dirname,
+        filename: 'chaos-editor.min.js'
     },
     resolve: {
         extensions: ['', '.js', '.scss']
@@ -23,5 +23,8 @@ module.exports = {
 
             }
         ]
-    }
+    },
+    plugins: [
+        new webpack.optimize.UglifyJsPlugin()
+    ]
 }

@@ -1,7 +1,7 @@
 {
   "name": "chaos-editor",
   "description": "A javascript editor",
-  "main": "lib/bundle.js",
+  "main": "chaos-editor.min.js",
   "authors": [
     "Khrall"
   ],
@@ -13,8 +13,12 @@
   "homepage": "https://github.com/Khrall/chaos-editor",
   "moduleType": [],
   "ignore": [
-    "**/.*",
+    "build",
+    "components",
     "node_modules",
-    "tests"
+    "src",
+    "tests",
+    ".*",
+    "webpack.config.js"
   ]
 }
