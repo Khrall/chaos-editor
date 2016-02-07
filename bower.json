@@ -1,0 +1,20 @@
+{
+  "name": "chaos-editor",
+  "description": "A javascript editor",
+  "main": "lib/bundle.js",
+  "authors": [
+    "Khrall"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "article",
+    "editor"
+  ],
+  "homepage": "https://github.com/Khrall/chaos-editor",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "tests"
+  ]
+}
