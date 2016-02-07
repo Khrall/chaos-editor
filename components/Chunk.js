@@ -1,8 +1,8 @@
 export default class Chunk {
 	constructor() {
-		if (new.target === Chunk) {
+		/*if (new.target === Chunk) {
 	      throw new TypeError("Cannot construct Chunk instances directly");
-	    }
+	    }*/
 	}
 
 	length() {

@@ -1,7 +1,7 @@
 {
   "name": "chaos-editor",
   "version": "0.0.1",
-  "author": "Raymi T. Eldby <raymitoro@gmail.com> (http://elddev.com)",
+  "author": "Khrall",
   "description": "A javascript editor",
   "main": "app/index.js",
   "repository": {
@@ -12,13 +12,13 @@
     "article",
     "editor"
   ],
-  "author": "Khrall",
   "license": "MIT",
   "devDependencies": {
     "babel-core": "^6.4.5",
     "babel-loader": "^6.2.2",
     "babel-preset-es2015": "^6.3.13",
     "babel-preset-react": "^6.3.13",
+    "babel-register": "^6.4.3",
     "chai": "^3.5.0",
     "css-loader": "^0.23.1",
     "jshint": "^2.9.1",
@@ -34,6 +34,7 @@
   },
   "scripts": {
     "start": "webpack-dev-server --config ./app/webpack.config.js --content-base build/app --hot --inline",
-    "test": "webpack-dev-server --config ./tests/webpack.config.js --content-base build/tests --hot --inline"
+    "test-live": "webpack-dev-server --config ./tests/webpack.config.js --content-base build/tests --hot --inline",
+    "test": "mocha tests/index.js --compilers js:babel-register"
   }
 }
