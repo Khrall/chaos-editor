@@ -1,6 +1,6 @@
 {
   "name": "chaos-editor",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Khrall",
   "description": "A javascript editor",
   "main": "lib/bundle.js",
