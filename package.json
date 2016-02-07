@@ -33,8 +33,9 @@
     "webpack-dev-server": "^1.14.1"
   },
   "scripts": {
-    "start": "webpack-dev-server --config ./app/webpack.config.js --content-base build/app --hot --inline",
+    "start": "webpack-dev-server --config ./app/webpack.config.js --content-base build/src --hot --inline",
     "test-live": "webpack-dev-server --config ./tests/webpack.config.js --content-base build/tests --hot --inline",
-    "test": "mocha tests/index.js --compilers js:babel-register"
+    "test": "mocha tests/index.js --compilers js:babel-register",
+    "compile": "webpack"
   }
 }

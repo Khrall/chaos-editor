@@ -1,15 +1,15 @@
 var path = require('path');
 
 module.exports = {
-	entry: './app/index.js',
-	output: {
-		path: path.resolve(__dirname, 'build'),
-		filename: 'bundle.js'
-	},
+    entry: './src/index.js',
+    output: {
+        path: path.resolve(__dirname, 'lib'),
+        filename: 'bundle.js'
+    },
     resolve: {
         extensions: ['', '.js', '.scss']
     },
-	module: {
+    module: {
         loaders: [
             { test: /\.scss$/, loaders: ["style", "css", "sass"] },
             { 
@@ -23,9 +23,5 @@ module.exports = {
 
             }
         ]
-    },
-    devServer: {
-    	hostname: 'localhost',
-    	port: 9000
     }
 }
